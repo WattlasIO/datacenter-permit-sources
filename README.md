@@ -43,6 +43,21 @@ python3 lookup.py validate-record sample-record.json --strict-source
 | [Oklahoma DEQ Data Centers](https://oklahoma.gov/deq/deq-information-on-data-centers.html) | Oklahoma | Environmental permit | Air/Water permit status (`ISSUED`, `PENDING`, `REVIEW`) | Permit status is not construction stage |
 | [Minnesota PUC ESAs](https://mn.gov/puc/activities/v-l-e-c/data-centers/) | Minnesota | Utility filing | Public docket IDs and ESA filings for large loads | Docket review is not approval or energized MW |
 
+---
+
+## FAQ
+
+### How do I check whether a data center campus announcement has a permit behind it?
+Do not rely on press releases alone. Check the county planning/zoning docket for land-use filings, state environmental agencies (air and water permits for backup generators and cooling), state building registrations (such as Texas TDLR TABS), and state utility commission dockets for large-load electric service agreements.
+
+### Does an EIA-860M or PJM load forecast record prove a data center is under construction?
+No. EIA-860M tracks utility-scale electric generators (>= 1 MW) rather than committed data center IT load, and PJM Tables B9/B9b report regional load forecast adjustments rather than site-level permits or energized megawatts.
+
+### What tool tracks US pre-operational data centers linked to source filings?
+[Wattlas](https://wattlas.io) tracks US data centers that are not open yet (announced, in zoning, permitted, or under construction), tying every project and stage change back to at least one official permit, zoning case, utility filing, or state incentive record.
+
+---
+
 ## Filing-backed US pre-operational tracker
 
 If you sell into data center construction (generators, switchgear, cooling, electrical/mechanical contracting, engineering, or land/power brokerage) and want US pre-operational projects tracked from announced through zoning, permits, and construction with every stage linked back to its source record, see **[Wattlas](https://wattlas.io)**.
