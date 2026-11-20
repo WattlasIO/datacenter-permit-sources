@@ -1,0 +1,101 @@
+[
+  {
+    "id": "eia-860m",
+    "name": "EIA-860M Monthly Electric Generator Inventory",
+    "jurisdiction": "US Federal",
+    "category": "power",
+    "url": "https://www.eia.gov/electricity/data/eia860m/",
+    "format": "XLSX",
+    "auth_required": false,
+    "proves": "Preliminary utility-scale operating, planned, and retired electric generators (typically >= 1 MW) with plant IDs, nameplate MW, fuel, technology, and planned/retirement dates.",
+    "does_not_prove": "Not available data center IT load, not an interconnection commitment, and not a complete backup-generator inventory."
+  },
+  {
+    "id": "eia-861",
+    "name": "EIA-861 Utility Service Territory",
+    "jurisdiction": "US Federal",
+    "category": "utility",
+    "url": "https://www.eia.gov/electricity/data/eia861/",
+    "format": "ZIP / XLSX",
+    "auth_required": false,
+    "proves": "County-level reported electric utility service territories by utility number, name, state, and data year.",
+    "does_not_prove": "Utility candidate only; does not prove parcel-level serviceability, feeder availability, or committed MW."
+  },
+  {
+    "id": "pjm-load-forecast",
+    "name": "PJM Load Forecast Report Tables (B9 / B9b)",
+    "jurisdiction": "PJM RTO (Mid-Atlantic / Midwest)",
+    "category": "grid",
+    "url": "https://www.pjm.com/library/reports-notices.aspx",
+    "format": "XLSX / PDF",
+    "auth_required": false,
+    "proves": "Regional zone and RTO load forecast adjustments above embedded summer peak load (Table B9) and total load associated with summer peak adjustments (Table B9b).",
+    "does_not_prove": "Regional forecast adjustments only; not site-level committed MW and not exclusively data center load. Do not add B9 and B9b together."
+  },
+  {
+    "id": "gleif-lei",
+    "name": "GLEIF Legal Entity Identifier (LEI) API",
+    "jurisdiction": "Global / US",
+    "category": "entity",
+    "url": "https://www.gleif.org/en/lei-data/gleif-api/",
+    "format": "JSON API",
+    "auth_required": false,
+    "proves": "Legal entity name, LEI, registration status, jurisdiction, and registered/headquarters addresses for entities that hold an LEI.",
+    "does_not_prove": "Does not prove site ownership, project sponsorship, or operating tenant for a specific parcel or permit."
+  },
+  {
+    "id": "census-places",
+    "name": "US Census Incorporated Places Population Estimates",
+    "jurisdiction": "US Federal",
+    "category": "geography",
+    "url": "https://www.census.gov/data/tables/time-series/demo/popest/2020s-total-cities-and-towns.html",
+    "format": "CSV",
+    "auth_required": false,
+    "proves": "Official state and place FIPS codes and annual population estimates for incorporated US cities and towns.",
+    "does_not_prove": "Excludes census-designated places and unincorporated county areas; gives no parcel coordinates or infrastructure availability."
+  },
+  {
+    "id": "tx-tdlr-tabs",
+    "name": "Texas TDLR TABS (Architectural Barriers Project Search)",
+    "jurisdiction": "Texas",
+    "category": "building-registration",
+    "url": "https://www.tdlr.texas.gov/TABS/Search/",
+    "format": "HTML",
+    "auth_required": false,
+    "proves": "Registered Texas construction projects with project ID, facility name, location, registration date, proposed start/completion dates, reported cost, square footage, owner, and design firm.",
+    "does_not_prove": "Registration and accessibility review status only; does not prove groundbreaking, active construction, or completion."
+  },
+  {
+    "id": "md-mde-frederick",
+    "name": "Maryland MDE Frederick Data Center Document Index",
+    "jurisdiction": "Maryland",
+    "category": "environmental-permit",
+    "url": "https://mde.maryland.gov/datacenters/Pages/FrederickDataCenter.aspx",
+    "format": "HTML / PDF",
+    "auth_required": false,
+    "proves": "Public index of Maryland Department of the Environment filings and permit documents tied to Frederick County data center projects.",
+    "does_not_prove": "A listed filing title is not an approved permit or active construction stage; read the underlying document."
+  },
+  {
+    "id": "ok-deq-datacenters",
+    "name": "Oklahoma DEQ Information on Data Centers (Air & Water Permits)",
+    "jurisdiction": "Oklahoma",
+    "category": "environmental-permit",
+    "url": "https://oklahoma.gov/deq/deq-information-on-data-centers.html",
+    "format": "HTML / PDF",
+    "auth_required": false,
+    "proves": "Public Air and Water permit rows listing division, county, company, facility, permit type, and permit status (ISSUED, PENDING, REVIEW).",
+    "does_not_prove": "Includes associated power facilities, excludes construction stormwater, and permit status is not construction stage."
+  },
+  {
+    "id": "mn-puc-datacenters",
+    "name": "Minnesota PUC Data Center Electric Service Agreements (ESAs)",
+    "jurisdiction": "Minnesota",
+    "category": "utility-filing",
+    "url": "https://mn.gov/puc/activities/v-l-e-c/data-centers/",
+    "format": "HTML / Docket PDFs",
+    "auth_required": false,
+    "proves": "Public Commission docket numbers, utility/customer/city filing records, and public-comment links for large-load electric service agreements.",
+    "does_not_prove": "A filed docket or review notice does not prove Commission approval, effective date, construction start, or energized MW."
+  }
+]
