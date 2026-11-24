@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you reference this directory or CLI, please cite it as below."
+title: "US Data Center Permit & Filing Sources (datacenter-permit-sources)"
+type: software
+authors:
+  - name: "Wattlas"
+    website: "https://wattlas.io"
+repository-code: "https://github.com/WattlasIO/datacenter-permit-sources"
+url: "https://wattlas.io"
+license: MIT
+keywords:
+  - data-centers
+  - public-records
+  - permits
+  - energy
+  - grid
+  - infrastructure
